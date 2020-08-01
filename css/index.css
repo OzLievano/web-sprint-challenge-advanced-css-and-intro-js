@@ -198,16 +198,16 @@ button:hover{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width:80%;
+        font-size: .6em;
+        width:70%;
         margin:0 auto;
     }
     
     .artist{
-        width:50%;
-        text-align:center;
+        width:120%;
     }
     .artist img{
-        width:100%;
+        width:90%;
         height: auto;
     } 
 }
