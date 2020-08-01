@@ -192,7 +192,7 @@ const artists = [
     {
       "id": 19,
       "name": "Albrecht Dürer",
-      "years": "1471 - 1528",
+      "years": "1471 - 1528", 
       "genre": "Northern Renaissance",
       "nationality": "German",
       "bio": "Albrecht Dürer (; German: [ˈʔalbʁɛçt ˈdyːʁɐ]; 21 May 1471 – 6 April 1528) sometimes spelt in English as Durer or Duerer, without umlaut, was a painter, printmaker, and theorist of the German Renaissance. Born in Nuremberg, Dürer established his reputation and influence across Europe when he was still in his twenties due to his high-quality woodcut prints.",
@@ -300,6 +300,8 @@ function addArtist(newObject,array){
   array.push(newObject);
   return array;
 }
+
+console.log(addArtist(new_artist,artists))
 
 /* Task 7: Create a function called lotsOfArt() that takes one argument: 
 
